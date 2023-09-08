@@ -1,0 +1,195 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    color:white;
+    font-family: 'roboto',sans-serif;
+}
+
+.infoScreen{
+    display:flex;
+    width:100vw;
+    height:100vh;
+}
+
+.leftContainer{
+    width:20vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.middleContainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width:60vw;
+    height:100vh;
+}
+
+.rightContainer{
+    width:25vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#News{
+    display:flex;
+    padding:5px;
+}
+
+#News tr{
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 5px;
+    padding:10px;
+    margin:10px;
+    border: 3px solid white;
+}
+
+.schoolNews h2{
+    text-align: center;
+}
+
+.kitchen{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#mentorText{
+    width: 50vw;
+    text-align: justify;
+    border:3px solid white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;    padding:10px;
+    border-radius: 5px;
+    padding:20px;
+}
+
+#scheme{
+    width: 55vw;
+    border:3px solid white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;    border-radius: 5px;
+    padding:10px;
+}
+
+#scheme tr td {
+    border:1px solid white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.mentor, .schema h2{
+    text-align: center;
+}
+
+.ansvarig img{
+    width:8vw;
+    border-radius: 5px;
+}
+
+.ansvarig{
+    padding:5px;
+    border:3px solid white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 5px;
+}
+
+.newsText{
+    width:15vw;
+    border:3px solid white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 5px;
+    padding:15px;
+
+}
+
+.newsText img{
+    width:100%;
+    border-radius: 5px;
+}
+
+.newsText p {
+    padding:5px;
+}
+
+.newsText h3{
+    text-align: center;
+}
+
+.lunch{
+    border: 3px solid white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width:15vw;
+    padding:5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.lunch h3{
+    padding:5px;
+}
+
+.weatherInfo img{
+    width:60%;
+}
+
+.weatherInfo{
+    border:3px solid white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 5px;
+    width:10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:5px;
+
+}
+
+.news, .schoolFood h2{
+    text-align: center;
+}
+
+.time{
+    border:3px solid white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width:10vw;
+    padding:30px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: x-large;
+}
+
+.infoScreen {
+    background: linear-gradient(300deg,deepskyblue,darkviolet,blue);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+
+
+
+
+
